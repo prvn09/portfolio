@@ -1,0 +1,23 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.x",
+  "env": {
+    "NEXT_PUBLIC_EMAIL": "@NEXT_PUBLIC_EMAIL",
+    "NEXT_PUBLIC_LINKEDIN": "@NEXT_PUBLIC_LINKEDIN",
+    "NEXT_PUBLIC_GITHUB": "@NEXT_PUBLIC_GITHUB"
+  },
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    }
+  ]
+}
