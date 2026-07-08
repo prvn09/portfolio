@@ -370,14 +370,14 @@ export default function Portfolio() {
         </p>
 
         <div className="flex gap-6 justify-center mb-12">
-          <a href="mailto:sharmapraveen2003@gmail.com" className="p-4 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition">
-			<Mail size={24} className="text-cyan-400 mx-auto" />
-		  </a>
-          <a href="https://www.linkedin.com/in/praveen-sharma-262911112/" className="p-4 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition">
-            <Linkedin size={24} className="text-cyan-400 mx-auto" />
+          <a href="mailto:sharmapraveen2003.com" className="p-4 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition">
+            <Mail size={24} className="text-cyan-400 mx-auto" />
           </a>
-          <a href="https://github.com/prvn09" className="p-4 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition">
-            <Github size={24} className="text-cyan-400 mx-auto" />
+          <a href="https://github.com/prvn09" className="px-6 py-3 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition text-cyan-400 font-semibold">
+            LinkedIn
+          </a>
+          <a href="https://www.linkedin.com/in/praveen-sharma-262911112/" className="px-6 py-3 border border-cyan-400/30 rounded-lg hover:bg-cyan-400/10 transition text-cyan-400 font-semibold">
+            GitHub
           </a>
         </div>
 
