@@ -6,7 +6,7 @@ import { ChevronDown, ExternalLink, Mail } from 'lucide-react';
 export default function Portfolio() {
   const [scrollY, setScrollY] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-
+  console.log(scrollY)
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
